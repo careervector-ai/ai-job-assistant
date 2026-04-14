@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Job Assistant</title>
+</head>
+<body style="font-family: Arial; padding: 10px; width: 260px;">
+
+  <h3>Enter Your Skills</h3>
+
+  <textarea 
+    id="skills" 
+    rows="4" 
+    style="width:100%;" 
+    placeholder="e.g. javascript, react, node"
+  ></textarea>
+
+  <br><br>
+
+  <button id="saveBtn" style="width:100%;">Save Skills</button>
+
+  <hr>
+
+  <h4>Upload Resume</h4>
+
+  <input type="file" id="resumeFile" style="width:100%;" />
+
+  <br><br>
+
+  <button id="uploadBtn" style="width:100%;">Upload Resume</button>
+
+  <p id="status" style="color: green; margin-top:10px;"></p>
+
+  <script src="popup.js"></script>
+
+</body>
+</html>
